@@ -1,0 +1,20 @@
+<div>
+  <h3
+  (mouseover) = "log('mouseover')"
+  (mousedown) = "log('mousedown')"
+  (mouseleave) = "log('mouseleave')"
+  (mouseup) = "log(mouseup)"
+  (click) = "log('click')"
+  >Hover Me</h3>
+  <input 
+    (blur)="log('blur')"
+    (focus)="log('focus')"
+    (keydown)="log('keydown',$event)"
+    (keyup) = "log('keyup',$event)"
+    (keypress)="log('keypress',$event)"
+  type="text">
+</div>
+<br>
+<ul>
+  <li *ngFor="#msg of messages">{{msg}}</li>
+</ul>
