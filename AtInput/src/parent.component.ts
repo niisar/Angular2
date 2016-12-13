@@ -30,3 +30,10 @@ export class ParentComponent{
       console.log(1)
     }
 }
+
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [ ParentComponent ],
+  bootstrap: [ ParentComponent ]
+})
+export class AppModule {}
