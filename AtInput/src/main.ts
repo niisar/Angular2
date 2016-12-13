@@ -1,6 +1,5 @@
-import {bootstrap} from 'angular2/platform/browser';
-import {ParentComponent} from './parent.component';
+//main entry point
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {ParentComponent} from './app';
 
-bootstrap(ParentComponent, [])
-  .then(success => console.log(`Bootstrap success`))
-  .catch(err => console.error(err)); 
+platformBrowserDynamic().bootstrapModule(ParentComponent)
