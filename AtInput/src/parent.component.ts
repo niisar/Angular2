@@ -1,4 +1,5 @@
 import { Component ,NgModule, Input} from '@angular2/core';
+import {BrowserModule} from '@angular/platform-browser'
 import { ChildComponent } from './child.component';
 import { Character } from './character';
 
