@@ -1,10 +1,10 @@
-import { Component, Input} from '@angular2/core';
+import { Component, Input} from '@angular/core';
 import { Character} from './character';
 @Component({
-  selector: 'story-characters',
+  selector: 'child-component',
   template:`
   <div style="border:2px solid orange; padding:5px">
-    <h1>Child Component: <span *ngIf="character">{{character.name}}</span></h1>
+    <h2>Child Component: <span *ngIf="character">{{character.name}}</span></h2>
   </div>
   `
 })

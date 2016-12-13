@@ -33,6 +33,7 @@ System.config({
     'rxjs': 'npm:rxjs',
     'typescript': 'npm:typescript@2.0.2/lib/typescript.js'
   },
+  
   //packages defines our app package
   packages: {
     app: {

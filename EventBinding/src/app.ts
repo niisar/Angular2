@@ -1,3 +1,4 @@
+console.log(1)
 //our root app component
 import {Component, NgModule} from '@angular/core'
 import {BrowserModule} from '@angular/platform-browser'

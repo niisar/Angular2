@@ -1,4 +1,5 @@
-import { Component ,Input} from 'angular2/core';
+import { Component ,Input, NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser'
 import { ChildComponent } from './child.component';
 import { Character } from './character';
 
@@ -30,3 +31,10 @@ export class ParentComponent{
       console.log(1)
     }
 }
+
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [ ParentComponent ],
+  bootstrap: [ ParentComponent ]
+})
+export class AppModule {}
