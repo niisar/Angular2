@@ -1,4 +1,4 @@
-import { Component ,Input} from '@angular2/core';
+import { Component ,NgModule, Input} from '@angular2/core';
 import { ChildComponent } from './child.component';
 import { Character } from './character';
 
